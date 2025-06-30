@@ -1,3 +1,19 @@
+# Security Testing with SAST & DAST Tools
+
+## Overview
+
+The following exercises cover the usage of both SAST and DAST tools for testing the security of an application.
+
+### Learning Objectives
+- Use SAST tools to scan for vulnerabilities in source code
+- Use DAST tools to simulate attack scenarios
+- Understand the strengths and weaknesses of different tools
+
+### Prior Knowledge
+- Security concepts
+- Static Analysis and Dynamic Analysis
+
+### Time Estimate: 20-25 minutes
 
 
 # In-Class Exercise 1: Static Application Security Testing (SAST)
@@ -59,7 +75,7 @@ Review the findings from all three tools and answer the following questions. Put
 
 1. Follow the instructions on [https://www.zaproxy.org/getting-started/](https://www.zaproxy.org/getting-started/) to download OWASP ZAP (hopefully you did this before class already)
 2. Make sure you have your application running using `docker compose up`. Double check that it works in the browser
-3. Open ZAP and follow the run automated scan instructions [https://www.zaproxy.org/getting-started/](https://www.zaproxy.org/getting-started/). Basically, you want to click on "Automated Scan" and enter "http://127.0.0.1:800" in the "URL to Attack" box and then click "Attack". It will take a minute or so before you see the summary of teh results in the bottom left.
+3. Open ZAP and follow the run automated scan instructions [https://www.zaproxy.org/getting-started/](https://www.zaproxy.org/getting-started/). Basically, you want to click on "Automated Scan" and enter "http://127.0.0.1:8000" in the "URL to Attack" box and then click "Attack". It will take a minute or so before you see the summary of the results in the bottom left.
 
 
 # Running the app
